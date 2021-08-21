@@ -9,7 +9,7 @@ public class Tests {
     @Test
     public void firsTest(){
         Methods vowelsTest = new Methods();
-        Assert.assertTrue(vowelsTest.vowels(letters));
+        Assert.assertTrue(vowelsTest.vowels(letters), "You are missing letters");
     }
 
 }
